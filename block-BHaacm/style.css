@@ -1,0 +1,19 @@
+para {
+    max-width: 1200px;
+    margin: auto;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .para {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .para {
+      border: 2px solid red;
+    }
+  }
+  
+  
